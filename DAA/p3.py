@@ -57,7 +57,7 @@ if __name__ == "__main__":
     V = []
     
     # Input for the number of items
-    num = int(input("Enter the number of weights or values required:\n"))
+    num = int(input("Enter the number of items:\n"))
     
     # Input the weights of the items
     for i in range(num):
@@ -74,7 +74,7 @@ if __name__ == "__main__":
     print("\n")
     
     # Input the maximum weight capacity of the knapsack
-    M = int(input("Enter the cost: "))
+    M = int(input("Enter the maximum weight of knapsack: "))
     n = len(V)
     print("\n")
     

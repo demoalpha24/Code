@@ -1,3 +1,5 @@
+# 0/1 knapsack with dynamic programming
+
 def knapSack(W, wt, val, n):
     dp = [0 for i in range(W + 1)]
     
